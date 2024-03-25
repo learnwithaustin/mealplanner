@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "372119342599",
+    "project_id": "meal-planner-27c94",
+    "storage_bucket": "meal-planner-27c94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372119342599:android:acc5b7118a160bafeae4a2",
+        "android_client_info": {
+          "package_name": "com.shrema.mealplanner.shreyas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZfh8WvDX_xJ1dfSIihNXZEjm93aINhqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
