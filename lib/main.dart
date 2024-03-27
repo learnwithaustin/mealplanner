@@ -1,6 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:shreyas/authentication/signup/signup_screen.dart';
+import 'package:shreyas/splashScreen/splash_screen.dart';
 
 import 'firebase_options.dart';
 
@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
           useMaterial3: true,
         ),
-        home: const SignUpScreen()
+        home: const MySplashScreen()
       ),
     );
   }

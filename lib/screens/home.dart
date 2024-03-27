@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shreyas/components/bottom_nav_bar.dart';
 import 'package:shreyas/screens/home_screen.dart';
+import 'package:shreyas/screens/recipe_category.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});
@@ -48,7 +49,7 @@ class _HomeState extends State<Home> {
         physics: const NeverScrollableScrollPhysics(),
         children: const[
           HomePage(),
-          Center(child: Text("page 2"),),
+          RecipeCategory(),
           Center(child: Text("page 3"),),
           Center(child: Text("page 4"),),
           Center(child: Text("page 5"),),

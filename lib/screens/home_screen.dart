@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:shreyas/components/home_app_bar.dart';
 import 'package:shreyas/components/tab_bar_widget.dart';
 import 'package:shreyas/constants/images_path.dart';
+import 'package:shreyas/screens/recipe_category.dart';
 
 import '../components/text_field_widget.dart';
 
@@ -45,7 +46,12 @@ class HomePage extends StatelessWidget {
                     style: TextStyle(
                       fontSize: w*.045,fontWeight: FontWeight.bold
                     ),),
-                    const Text('See all'),
+                    GestureDetector(
+                        onTap: (){
+                          Navigator.push(context,
+                              MaterialPageRoute(builder: (context)=>const RecipeCategory()));
+                        },
+                        child: const Text('See all')),
                     SizedBox(height: w*.022,)
                   ],
                 ),
